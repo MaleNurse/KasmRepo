@@ -1,17 +1,29 @@
 {
   "description": "Kasm Workspace with Wone",
   "docker_registry": "https://index.docker.io/v1/",
-  "name": "malenurse/kasm-wine:latest",
   "image_src": "wine.png",
   "categories": [
     "Development"
   ],
+  "require_gpu": false,
+  "enabled": true,
+  "image_type": "Container",
   "friendly_name": "Wine",
+  "cores": 4,
+  "memory": 4096,
+  "gpu_count": 0,
+  "cpu_allocation_method": "Shares",
   "architecture": [
     "amd64"
   ],
   "compatibility": [
-    "1.16.x"
-  ],
-  "uncompressed_size_mb": 5304
+    {
+      "version": "1.16.x",
+      "image": "malenurse/kasm-wine",
+      "uncompressed_size_mb": 5400,
+      "available_tags": [
+        "latest"
+      ]
+    }
+  ]
 }

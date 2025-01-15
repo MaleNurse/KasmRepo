@@ -4,7 +4,7 @@ const nextConfig = {
   env: {
     name: 'MaleNurse Kasm Repo',
     description: 'Custom Kasm images',
-    icon: 'https://malenurse.github.io/KasmRepo/1.0/wine.png',
+    icon: 'wine.png',
     listUrl: 'https://malenurse.github.io/KasmRepo/',
     contactUrl: 'https://github.com/malenurse/',
   },

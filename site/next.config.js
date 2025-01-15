@@ -6,7 +6,7 @@ const nextConfig = {
     description: 'Custom Kasm images',
     icon: '/img/logo.svg',
     listUrl: 'https://github.com/malenurse/KasmRepo/',
-    contactUrl: 'https://github.com/malenurse/KasmRepo/',
+    contactUrl: 'https://github.com/malenurse/',
   },
   reactStrictMode: true,
   swcMinify: true,
